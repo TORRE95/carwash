@@ -180,7 +180,6 @@ function paquetes(nombre){
 		}
 	}
 	
-	alert(info);
 	localStorage.setItem('construc', info);
 	location.href = "paquetes.html";
 }
