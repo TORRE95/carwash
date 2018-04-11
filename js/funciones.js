@@ -60,7 +60,7 @@ function iniciarSesion(){
 function paquetes(nombre){
 
 	switch(nombre){
-		case "Splash Autolavado":{
+		case "Mobil Wash":{
 			var info = 
 		"<center>"+
 			"<div class='container'>"+
@@ -73,7 +73,7 @@ function paquetes(nombre){
 				"<p>Lavado exterior</p>"+
 				"<p>Lavado interior (alfombra y asientos)</p>"+
 				"<p>Aspirado</p>"+
-				"<p style='font-weight: bold'>Precio: $250</p>"+
+				"<p style='font-weight: bold'>Precio: $150</p>"+
 			"</div>"+
 			"<div class='container'>"+
 				"<h2  class='tlt-info txt-cntr'>Paquete III</h2>"+
@@ -82,7 +82,7 @@ function paquetes(nombre){
 				"<p>Aspirado</p>"+
 				"<p>Lavado de motor, chasís y suspensión</p>"+
 				"<p>Pulido y encerado</p>"+
-				"<p style='font-weight: bold'>Precio: $600</p>"+
+				"<p style='font-weight: bold'>Precio: $200</p>"+
 			"</div><br>"+
 			"<a href='servicio.html'><button class='bt bt-df' style='font-weight: bold'>SOLICITA UN PAQUETE</button></a>"+
 			"</center>";
