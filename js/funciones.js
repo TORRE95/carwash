@@ -38,10 +38,10 @@ function iniciarSesion(){
 		
 		inicioAjax.onreadystatechange = function(){
 			
+			inicio = JSON.parse(inicioAjax.responseText);
 
 			if (inicioAjax.readyState == 4 && inicioAjax.status == 200) {
 
-				alert(inicioAjax.responseText);
 				if (inicio[0].Correo == user && inicio[0].Password == pass) {
 					localStorage.setItem('idUsuario',  inicio[0].idUsuario);
 					localStorage.setItem('nombreUsuario', inicio[0].Usuario)
