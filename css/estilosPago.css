@@ -1,0 +1,52 @@
+
+*{
+	font-family: 'tajawalregular', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: white;
+}
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	 background: linear-gradient(to right, #00C4CC, #2D86D6);
+	 color: black;
+	 font-weight: bold;
+}
+form{
+	margin-left: 30%;
+	position: relative;
+	margin-top: 30%;
+
+}
+.fecha{
+	position: relative;
+	margin-left: 20px;
+	margin-top: 10px;
+	border-radius: 6px;
+	width: 20%
+	height: 30px;
+	color: white;
+	background-color:#BDBDBD;
+}
+input{
+width: 60%
+border-radius: 4px;
+border:none;
+background-color: transparent;
+border-bottom: 1px solid;
+height: 30px;
+border-color: white;
+color: white;
+}
+form>input{
+	background-color: #71B280;
+	color: white;
+	width: 60%;
+	border-bottom: 0px solid !important;
+
+}

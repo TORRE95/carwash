@@ -57,6 +57,7 @@ function iniciarSesion(){
 	}
 }
 
+
 function paquetes(nombre){
 
 	switch(nombre){
@@ -236,7 +237,15 @@ function printNombre() {
 	document.getElementById('nombreUser'). value = nombre;
 	
 }
-
+function pagar(){
+	var pag = document.getElementById('pag').value;
+	 if(pag == "credito" || pag == "debito"){
+	 	window.location.href = "pago.html";
+	 }
+	 else{
+	 	enviar_datos();
+	 }
+}
 function enviar_datos() {
 	var dir = document.getElementById('dir').value;
 	var pag = document.getElementById('pag').value;
